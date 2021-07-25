@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: uk.co._4loop.BasicTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.004 s <<< FAILURE! - in uk.co._4loop.BasicTest
+testFailed  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: a failing test
+	at uk.co._4loop.BasicTest.testFailed(BasicTest.java:48)
+

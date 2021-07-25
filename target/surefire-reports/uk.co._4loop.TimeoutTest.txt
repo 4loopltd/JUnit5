@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: uk.co._4loop.TimeoutTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.117 s <<< FAILURE! - in uk.co._4loop.TimeoutTest
+timeoutExceededWithPreemptiveTermination  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: execution timed out after 10 ms
+	at uk.co._4loop.TimeoutTest.timeoutExceededWithPreemptiveTermination(TimeoutTest.java:54)
+Caused by: org.junit.jupiter.api.AssertTimeout$ExecutionTimeoutException: Execution timed out in thread junit-timeout-thread-1
+	at app//uk.co._4loop.TimeoutTest.lambda$timeoutExceededWithPreemptiveTermination$3(TimeoutTest.java:56)
+
+timeoutExceeded  Time elapsed: 0.111 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: execution exceeded timeout of 10 ms by 99 ms
+	at uk.co._4loop.TimeoutTest.timeoutExceeded(TimeoutTest.java:44)
+

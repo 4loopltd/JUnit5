@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: uk.co._4loop.AssertionTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in uk.co._4loop.AssertionTest
+testGroupAssertion  Time elapsed: 0.04 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+numbers (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <1> but was: <4>
+	at uk.co._4loop.AssertionTest.testGroupAssertion(AssertionTest.java:21)
+
